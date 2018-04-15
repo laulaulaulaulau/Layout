@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'robotobold';
+    src: url('roboto-bold-webfont.woff2') format('woff2'),
+         url('roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('roboto-light_0-webfont.woff2') format('woff2'),
+         url('roboto-light_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    height: 420px;
+    background: #1acbfd;
+    width: auto;
+}
+ 
+.topo{
+    background-image: url(imgs/Logotipo.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    height: 40px;
+    margin-left: 370px;
+    margin-right: 370px;
+    text-align: right;
+    color: #055180;
+    font-family: 'robotolight';
+    font-size: 12px;
+   
+}
+
+
+.ursos{ 
+    height: 130px;
+}
+
+h2{ 
+   margin: 0;
+   padding: 0;
+   color: #055180;
+   text-align: center;
+   font-size: 30px;
+   font-family: 'robotobold';
+
+}
+
+p{
+   margin: 0;
+   padding: 0;
+}
+
+.centro{
+   padding: 60px;
+   height: 200px;
+   text-align: center;
+   color: #0c7aa9;
+   font-family: 'robotobold';
+}
+
+
+.base{
+    
+    text-transform: uppercase;
+    
+    display: inline;
+}
+
+li{
+    color: #055180;
+    font-family: 'robotolight';
+    font-size: 12px;
+    float: left;
+}
+
+ul{
+    align-items: center;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+h1{
+    color:#292929;
+    font-size:15px;
+    font-family: 'robotobold';
+}
+
+p{
+    color: #757575;
+    font-size: 14px;
+    font-family: 'robotolight';
+}
+
+img{
+     height: 130px;
+}
+
+
+.Icon{
+    height: 45px;
+    margin-top: 20px;
+}
+
+
+    
+.grid-container {
+  margin-left: 370px;
+  margin-right: 370px;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 30px;
+}
